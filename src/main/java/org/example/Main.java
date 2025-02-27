@@ -34,42 +34,42 @@ public class Main {
                     if (saldo>pGalletas){
                         System.out.println("Galletas Añadidas a la compra..");
                         saldo = saldo-pGalletas;
-                        contadorGalleta=+1;
+                        contadorGalleta+=1;
                     }else System.out.println("No te alcanza tu saldo es: " + saldo);
                 }
                 case 2->{
                     if (saldo>pPapas){
                         System.out.println("Papas añadidas a la compra..");
                         saldo = saldo-pPapas;
-                        contadorPapas=+1;
+                        contadorPapas+=1;
                     }else System.out.println("No te alcanza.. tu saldo es: " + saldo);
                 }
                 case 3->{
                     if (saldo>pGaseosas){
                         System.out.println("Gaseosa añadida a la compra..");
                         saldo = saldo-pGaseosas;
-                        contadorGaseosa=+1;
+                        contadorGaseosa+=1;
                     }else System.out.println("No te alcanza tu saldo es: " + saldo);
                 }
                 case 4 ->{
                     if (saldo>pDulces){
                         System.out.println("Gaseosa añadida a la compra..");
                         saldo=saldo-pDulces;
-                        contadorDulces=+1;
+                        contadorDulces+=1;
                     }else System.out.println("No te alcanza.. tu saldo es: " + saldo);
                 }
                 case 5->{
                     if (saldo>pMani){
                         System.out.println("Mani añadida a la compra..");
                         saldo=saldo-pMani;
-                        contadorMani=+1;
+                        contadorMani+=1;
                     }else System.out.println("No te alcanza tu saldo es: " + saldo);
                 }
                 case 6->{
                     if (saldo>pJugos){
                         System.out.println("Jugo añadido a la compra... ");
                         saldo=saldo-pJugos;
-                        contadorJugos=+1;
+                        contadorJugos+=1;
                     }
                     System.out.println("No te alcanza.. tu saldo es: " + saldo);
                 }
